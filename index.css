@@ -17,10 +17,10 @@ html {
 
 /* The element to apply the animation to */
 div.ola {
-  width: 100px;
-  height: 100px;
-  position: relative;
-  background-color: red;
+  width: 400px;
+  height: 400px;
+  position: center;
+  background-color: lightcoral;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 30s;
 } 
