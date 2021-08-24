@@ -10,7 +10,7 @@ html {
 @keyframes example {
   0%   {background-color:red; left:0px; top:0px;}
   25%  {background-color:yellow; left:800px; top:0px;}
-  50%  {background-color:blue; left:800px; top:400px;}
+  50%  {background-color:blue; left:900px; top:380px;}
   75%  {background-color:green; left:0px; top:400px;}
   100% {background-color:red; left:0px; top:0px;}
 }
@@ -22,5 +22,5 @@ div.ola {
   position: relative;
   background-color: lightcoral;
   animation-name: example;
-  animation-duration: 15s;
+  animation-duration: 10s;
 } 
