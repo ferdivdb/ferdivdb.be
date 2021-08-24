@@ -19,7 +19,7 @@ html {
 div.ola {
   width: 400px;
   height: 400px;
-  position: center;
+  position: relative;
   background-color: lightcoral;
   animation-name: example;
   animation-duration: 30s;
