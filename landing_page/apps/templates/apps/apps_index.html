@@ -1,0 +1,9 @@
+<h1>Index des apps</h1>
+<br>
+<h2>Liste des Applications</h2>
+<br>
+{% for app in apps %}
+	<h3><a href="app/{{ app.title }}">{{ app.title }}</a></h3>
+	<p>{{ app.author }}</p>
+	<br>
+{% endfor %}
