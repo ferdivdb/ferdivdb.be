@@ -4,7 +4,7 @@ html {
     background-size: cover;
 }
 
- /* The animation code */
+ /* The animation code 
 @keyframes example {
   0%   {background-color:rgb(238, 151, 250); left:0px; top:0px;}
   25%  {background-color:rgb(255, 244, 143); left:75%; top:0px;}
@@ -13,7 +13,7 @@ html {
   100% {background-color:rgb(107, 248, 206); left:0px; top:0px;}
 }
 
-/* The element to apply the animation to */
+ The element to apply the animation to 
 div.ola {
   width: 400px;
   height: 150px;
@@ -22,7 +22,7 @@ div.ola {
   animation-name: example;
   animation-duration: 3s;
   animation-iteration-count: 100;
-} 
+}*/
 
 img.logo {
   width: 150px;
