@@ -4,6 +4,44 @@ html {
     background-size: cover;
 }
 
+header {
+    background-color: #000;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+#nav {
+    border-top: 1px solid #00f2ea;
+    border-bottom: 1px solid #ff0050;
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    margin: 0 auto;
+}
+#nav ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#nav ul li {
+  margin: 0px;
+  padding: 0;
+  float: left;
+
+}
+#nav ul li a {
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+
  /* The animation code 
 @keyframes example {
   0%   {background-color:rgb(238, 151, 250); left:0px; top:0px;}
@@ -39,23 +77,23 @@ p{
     color: #fff;
     font-family: sans-serif;
     font-size: 3em;
-    text-align: center;
+
 }
 
 h1{
     color: #fff;
     font-family: sans-serif;
     font-size: 6em;
-    animation: tiktok 500ms linear infinite;
-    text-align: center;
+    animation: kliklik 500ms linear infinite;
+
 }
 
 h2{
     color: #fff;
     font-family: sans-serif;
     font-size: 4em;
-    animation: tiktok 500ms linear infinite;
-    text-align: center;
+
+
 }
 
 h3{
@@ -63,21 +101,21 @@ h3{
     color: #fff;
     font-family: sans-serif;
     font-size: 2em;
-    animation: tiktok 500ms linear infinite;
+    animation: kliklik 500ms linear infinite;
 }
 
-@keyframes tiktok{
+@keyframes kliklik{
     0%, 100% {
-    text-shadow: -1.5px -1.5px 0 #0ff, 1.5px 1.5px 0 #f00;
+    text-shadow: -3px -3px 0 #0ff, 3px 3px 0 #f00;
   }
   25% {
-    text-shadow: 1.5px 1.5px 0 #0ff, -1.5px -1.5px 0 #f00;
+    text-shadow: 3px 3px 0 #0ff, -3px -3px 0 #f00;
   }
   50% {
-    text-shadow: 1.5px -1.5px 0 #0ff, 1.5px -1.5px 0 #f00;
+    text-shadow: 3px -3px 0 #0ff, 3px -3px 0 #f00;
   }
   75% {
-    text-shadow: -1.5px 1.5px 0 #0ff, -1.5px 1.5px 0 #f00;
+    text-shadow: -3px 3px 0 #0ff, -3px 3px 0 #f00;
   }
 }
 
