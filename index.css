@@ -24,17 +24,21 @@ div.ola {
   animation-iteration-count: 100;
 }*/
 
-img.logo {
-  width: 150px;
-  align-content: center;
-
+figure {
+  position: relative;
+  padding: 100px;
+  
 }
+
+img{
+  max-width: 30%;
+}
+
 
 p{
     color: #fff;
     font-family: sans-serif;
     font-size: 3em;
-    
     text-align: center;
 }
 
@@ -45,6 +49,7 @@ h1{
     animation: tiktok 500ms linear infinite;
     text-align: center;
 }
+
 h2{
     color: #fff;
     font-family: sans-serif;
@@ -52,6 +57,15 @@ h2{
     animation: tiktok 500ms linear infinite;
     text-align: center;
 }
+
+h3{
+    
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 2em;
+    animation: tiktok 500ms linear infinite;
+}
+
 @keyframes tiktok{
     0%, 100% {
     text-shadow: -1.5px -1.5px 0 #0ff, 1.5px 1.5px 0 #f00;
